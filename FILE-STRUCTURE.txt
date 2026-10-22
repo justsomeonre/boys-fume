@@ -1,0 +1,68 @@
+================================================================================
+BOYS FUME® — PRODUCTION REPOSITORY FILE STRUCTURE
+"The World's Most Accessible Luxury"
+================================================================================
+
+boys-fume/
+├── index.html                                 [Main Homepage & Editorial Experience]
+├── README.md                                  [Production Documentation & Deployment Guide]
+├── FILE-STRUCTURE.txt                         [Complete Project Hierarchy Map]
+├── assets/
+│   ├── favicon.svg                            [Minimalist Luxury Brand Favicon]
+│   └── images/
+│       ├── hero-campaign.jpg                  [Primary Hero Campaign Photograph (16:9)]
+│       ├── hero-campaign.webp                 [WebP Format Optimization]
+│       ├── product-still.jpg                  [Composition Nº 01 STILL Flacon (Portrait)]
+│       ├── product-still.webp                 [WebP Format Optimization]
+│       ├── product-after-hours.jpg            [Composition Nº 02 AFTER HOURS Flacon (Moody)]
+│       ├── product-after-hours.webp           [WebP Format Optimization]
+│       ├── product-almost.jpg                 [Composition Nº 03 ALMOST Flacon (Sunlit Stone)]
+│       ├── product-almost.webp                [WebP Format Optimization]
+│       ├── water-ripple.jpg                   [Editorial Water Droplet & Ripples (Macro)]
+│       ├── water-ripple.webp                  [WebP Format Optimization]
+│       ├── ingredient-hands.jpg               [Cupped Hands Under Chrome Tap (16:9 Dark)]
+│       ├── ingredient-hands.webp              [WebP Format Optimization]
+│       ├── bathroom-campaign.jpg              [Travertine Bathroom Vanity & Towel (16:9)]
+│       ├── bathroom-campaign.webp             [WebP Format Optimization]
+│       ├── bottle-closeup.jpg                 [Extreme Flacon Base & Condensation Macro]
+│       ├── bottle-closeup.webp                [WebP Format Optimization]
+│       ├── shower-bottle.jpg                  [Flacon beside Cascading Shower Stream]
+│       ├── shower-bottle.webp                 [WebP Format Optimization]
+│       ├── bathroom-interior.jpg              [Minimalist Architectural Bathroom Interior]
+│       ├── bathroom-interior.webp             [WebP Format Optimization]
+│       ├── human-shower.jpg                   [Editorial Lifestyle Shower Portrait]
+│       ├── human-shower.webp                  [WebP Format Optimization]
+│       ├── final-water-campaign.jpg           [Cinematic Dark Water & Golden Ripples]
+│       ├── final-water-campaign.webp          [WebP Format Optimization]
+│       ├── still-detail.jpg                   [STILL Flacon Architecture Detail]
+│       ├── still-detail.webp                  [WebP Format Optimization]
+│       ├── after-hours-detail.jpg             [AFTER HOURS Wet Slate Base Detail]
+│       ├── after-hours-detail.webp            [WebP Format Optimization]
+│       ├── almost-detail.jpg                  [ALMOST Limestone Caustics Detail]
+│       ├── almost-detail.webp                 [WebP Format Optimization]
+│       ├── editorial-water.jpg                [Macro Fluid Dynamics on Honed Stone]
+│       └── editorial-water.webp               [WebP Format Optimization]
+├── css/
+│   ├── styles.css                             [Complete Design System & Components]
+│   └── responsive.css                         [Advanced Viewport & Breakpoint Tuning]
+├── js/
+│   ├── app.js                                 [UI Controller, Navigation, Search, FAQ & Modals]
+│   ├── cart.js                                [Shopping Bag, Wishlist & Checkout Reveal Engine]
+│   └── products.js                            [Product Data Catalog & Olfactory Spec Sheet]
+└── pages/
+    ├── shop.html                              [Dedicated Trilogy Collection & Spec View]
+    ├── story.html                             [Manifesto: "Luxury Isn't Always Something"]
+    ├── ingredients.html                       [Formula: "100% H₂O · 0% Confusion" & Matrix]
+    ├── reviews.html                           [Customer Testimonials & Verified Tap Claims]
+    └── faq.html                               [Comprehensive FAQ: "Questions We Deserve"]
+
+================================================================================
+TOTAL VERIFIED ASSETS:
+- 16 distinct commercial photographic masters + 16 WebP derivatives (32 files)
+- 1 SVG brand mark
+- 2 CSS stylesheets
+- 3 JavaScript architecture modules
+- 6 Production HTML pages
+- 1 README deployment specification
+- 1 Complete downloadable archive (boys-fume.zip)
+================================================================================

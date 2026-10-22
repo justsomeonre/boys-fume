@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOYS FUME® — The World's Most Accessible Luxury</title>
+  <meta name="description" content="BOYS FUME® introduces Eau De Tap™. The world's most honest, accessible luxury fragrance. 100% H₂O, 0% Confusion.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,200..800;1,9..40,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div style="background-color: var(--color-deep-black); color: var(--color-white); font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; text-align: center; padding: 0.45rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+    <span>COMPLIMENTARY DELIVERY WORLDWIDE: WALK 6 FEET TO YOUR SINK · 100% H₂O</span>
+  </div>
+
+  <!-- Main Site Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="BOYS FUME Homepage">
+        <span class="brand-title">BOYS FUME<sup>®</sup></span>
+        <span class="brand-sub">EAU DE TAP™</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#collection" class="nav-link active">SHOP</a></li>
+          <li><a href="pages/shop.html" class="nav-link">COLLECTION</a></li>
+          <li><a href="pages/story.html" class="nav-link">OUR STORY</a></li>
+          <li><a href="pages/ingredients.html" class="nav-link">INGREDIENTS</a></li>
+          <li><a href="pages/reviews.html" class="nav-link">REVIEWS</a></li>
+          <li><a href="pages/faq.html" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Utilities -->
+      <div class="nav-actions">
+        <!-- Search Trigger -->
+        <button class="action-btn" id="searchTrigger" aria-label="Search Fragrances">
+          <svg viewBox="0 0 24 24" fill="none">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+
+        <!-- Wishlist Drawer Trigger -->
+        <button class="action-btn" data-action="open-wishlist" aria-label="View Wishlist">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+          <span class="counter-badge wishlist-count-badge">0</span>
+        </button>
+
+        <!-- Shopping Bag Trigger -->
+        <button class="action-btn" data-action="open-cart" aria-label="View Shopping Bag">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="counter-badge cart-count-badge">0</span>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Mobile Navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =====================================================================
+         PART 8 — HOMEPAGE HERO SECTION
+         ===================================================================== -->
+    <section class="hero-section" aria-label="Hero Campaign">
+      <div class="hero-bg-container">
+        <picture>
+          <source srcset="assets/images/hero-campaign.webp" type="image/webp">
+          <img src="assets/images/hero-campaign.jpg" alt="BOYS FUME Eau De Tap Luxury Glass Perfume Flacon resting on a wet beige stone counter with a modern chrome tap softly pouring water in warm morning sunlight" class="hero-image">
+        </picture>
+        <div class="hero-gradient-overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-campaign-tag">
+            <span>EAU DE TAP<sup>®</sup></span>
+            <span style="opacity: 0.4;">|</span>
+            <span>AUTONOMOUS LUXURY</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Real Fragrance<br>
+            <em>Lives Here.</em>
+          </h1>
+
+          <p class="hero-subhead">
+            Not in a bottle.<br>
+            In your tap.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#collection" class="btn btn-primary">
+              SHOP COLLECTION &rarr;
+            </a>
+            <a href="pages/story.html" class="btn btn-outline">
+              DISCOVER STORY
+            </a>
+          </div>
+
+          <div class="hero-award-claim">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <p>№ 01 — MOST ACCESSIBLE FRAGRANCE ON EARTH<br><span style="font-size: 0.6rem; color: #8C8E84;">*Self-awarded across all municipal water fixtures</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 9 — COLLECTION AND PRODUCT CARDS
+         ===================================================================== -->
+    <section class="collection-section" id="collection" aria-label="Our Signature Scents">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">THE EXTRAORDINARY TRILOGY</span>
+          <h2 class="section-title">Our Signature Scents</h2>
+          <p class="section-subtitle">Three moods. Same source. Crafted for discerning skin with 100% transparent integrity.</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 01: STILL -->
+          <article class="product-card" data-product-id="still">
+            <div class="product-image-wrap" onclick="window.appController.openQuickView('still')">
+              <picture>
+                <source srcset="assets/images/product-still.webp" type="image/webp">
+                <img src="assets/images/product-still.jpg" alt="STILL Eau De Tap Flacon by rainfall shower" class="product-image" loading="lazy">
+              </picture>
+              <div class="product-badge-group">
+                <span class="badge badge-dark">THE ORIGINAL</span>
+                <span class="badge badge-outline">Nº 01</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="still" onclick="event.stopPropagation(); window.cartManager.toggleWishlist('still');" aria-label="Add STILL to Wishlist">
+                <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+            <div class="product-details">
+              <span class="product-edition">COMPOSITION Nº 01</span>
+              <h3 class="product-title">STILL</h3>
+              <p class="product-tagline">“That fresh shower feeling. But all day.”</p>
+              <p class="product-subtext">Smells like a fresh start. Because it is one.</p>
+              
+              <div class="product-pricing">
+                <span class="price-strike">₹1,999</span>
+                <span class="price-actual">₹0</span>
+                <span class="price-sub">Free / In Your Tap</span>
+              </div>
+
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="window.cartManager.addItem('still', 1)">
+                  ADD TO BAG
+                </button>
+                <button class="btn btn-outline" onclick="window.appController.openQuickView('still')" aria-label="Quick view STILL">
+                  DETAILS
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 02: AFTER HOURS -->
+          <article class="product-card" data-product-id="after-hours">
+            <div class="product-image-wrap" onclick="window.appController.openQuickView('after-hours')">
+              <picture>
+                <source srcset="assets/images/product-after-hours.webp" type="image/webp">
+                <img src="assets/images/product-after-hours.jpg" alt="AFTER HOURS Eau De Tap Flacon on moody dark slate" class="product-image" loading="lazy">
+              </picture>
+              <div class="product-badge-group">
+                <span class="badge badge-dark">AFTER DARK</span>
+                <span class="badge badge-outline">Nº 02</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="after-hours" onclick="event.stopPropagation(); window.cartManager.toggleWishlist('after-hours');" aria-label="Add AFTER HOURS to Wishlist">
+                <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+            <div class="product-details">
+              <span class="product-edition">COMPOSITION Nº 02</span>
+              <h3 class="product-title">AFTER HOURS</h3>
+              <p class="product-tagline">“For late-night overthinkers and early-morning legends.”</p>
+              <p class="product-subtext">Notes of cold water, questionable decisions, and a 7:00 AM alarm.</p>
+              
+              <div class="product-pricing">
+                <span class="price-strike">₹2,499</span>
+                <span class="price-actual">₹0</span>
+                <span class="price-sub">Free / In Your Tap</span>
+              </div>
+
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="window.cartManager.addItem('after-hours', 1)">
+                  ADD TO BAG
+                </button>
+                <button class="btn btn-outline" onclick="window.appController.openQuickView('after-hours')" aria-label="Quick view AFTER HOURS">
+                  DETAILS
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 03: ALMOST -->
+          <article class="product-card" data-product-id="almost">
+            <div class="product-image-wrap" onclick="window.appController.openQuickView('almost')">
+              <picture>
+                <source srcset="assets/images/product-almost.webp" type="image/webp">
+                <img src="assets/images/product-almost.jpg" alt="ALMOST Eau De Tap Flacon by sunlit travertine basin" class="product-image" loading="lazy">
+              </picture>
+              <div class="product-badge-group">
+                <span class="badge badge-dark">LIMITED NOTHING</span>
+                <span class="badge badge-outline">Nº 03</span>
+              </div>
+              <button class="product-wishlist-btn" data-product-id="almost" onclick="event.stopPropagation(); window.cartManager.toggleWishlist('almost');" aria-label="Add ALMOST to Wishlist">
+                <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+              </button>
+            </div>
+            <div class="product-details">
+              <span class="product-edition">COMPOSITION Nº 03</span>
+              <h3 class="product-title">ALMOST</h3>
+              <p class="product-tagline">“For those who tried perfume, but found a better option.”</p>
+              <p class="product-subtext">A bold opening of water. A dry-down of financial responsibility.</p>
+              
+              <div class="product-pricing">
+                <span class="price-strike">₹1,499</span>
+                <span class="price-actual">₹0</span>
+                <span class="price-sub">Free / In Your Tap</span>
+              </div>
+
+              <div class="product-actions">
+                <button class="btn btn-primary" onclick="window.cartManager.addItem('almost', 1)">
+                  ADD TO BAG
+                </button>
+                <button class="btn btn-outline" onclick="window.appController.openQuickView('almost')" aria-label="Quick view ALMOST">
+                  DETAILS
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="product-footnote">
+          NO BOTTLE REQUIRED FOR THE FREE EXPERIENCE · PLEASE DON'T DRINK FROM THE SINK IF UNFILTERED
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 11 — BRAND STORY
+         ===================================================================== -->
+    <section class="story-section" aria-label="Our Philosophy">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-media">
+            <picture>
+              <source srcset="assets/images/water-ripple.webp" type="image/webp">
+              <img src="assets/images/water-ripple.jpg" alt="A single pure water droplet creating perfect circular ripples in a calm pool" class="story-image" loading="lazy">
+            </picture>
+            <div class="story-caption">FIGURE 1.1 — THE FORMULATION LAB (MUNICIPAL RESERVOIR)</div>
+          </div>
+
+          <div class="story-text-wrap">
+            <span class="section-label">THE REVELATION</span>
+            <h2 class="story-headline">Luxury Isn't Always Something.</h2>
+            <p class="story-sub">Sometimes, it's the thing you've always had.</p>
+
+            <div class="story-body">
+              <p>
+                While other fragrance houses search the planet for rare agarwood, hand-harvested Grasse jasmine, and musk from Himalayan summits, we looked closer. Much closer.
+              </p>
+              <p>
+                In fact, we looked six feet to the left and found the bathroom.
+              </p>
+              <p>
+                BOYS FUME® was founded on an unapologetically honest premise: confidence does not require paying ₹14,000 for crushed rose petals dissolved in ethanol. Pure water, cold and immediate, delivers what every luxury marketing campaign promises—refreshment, vitality, and an instant reset.
+              </p>
+              <p>
+                We sell the idea. Not the water.
+              </p>
+            </div>
+
+            <a href="pages/story.html" class="btn btn-outline" style="margin-top: 1rem;">
+              READ FULL MANIFESTO &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 12 — WHY CHOOSE BOYS FUME?
+         ===================================================================== -->
+    <section class="benefits-section" aria-label="Why Choose BOYS FUME">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">UNRIVALED PROPOSITION</span>
+          <h2 class="section-title">The Four Pillars of Pure Clarity</h2>
+          <p class="section-subtitle">Why millions are turning off their credit cards and turning on their faucets.</p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+            </svg>
+            <h3 class="benefit-title">Always Available</h3>
+            <p class="benefit-desc">“Just turn the tap. No backorders, no customs duty, no 4-day courier anxiety.”</p>
+          </div>
+
+          <div class="benefit-card">
+            <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M12 8v8m-4-4h8"/>
+            </svg>
+            <h3 class="benefit-title">Zero Regret</h3>
+            <p class="benefit-desc">“Your wallet stays mysterious. No post-purchase buyer remorse staring at a glass bottle.”</p>
+          </div>
+
+          <div class="benefit-card">
+            <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/>
+              <path d="M12 12v9m-4-4 4 4 4-4"/>
+            </svg>
+            <h3 class="benefit-title">Eco-Conscious</h3>
+            <p class="benefit-desc">“No fancy packaging waste. No heavy magnetic caps destined for a landfill in 2038.”</p>
+          </div>
+
+          <div class="benefit-card">
+            <svg class="benefit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+            <h3 class="benefit-title">Universally Loved</h3>
+            <p class="benefit-desc">“From college hostel rooms to boardroom CEOs. The universal equalizer of mankind.”</p>
+          </div>
+        </div>
+
+        <p class="benefits-footnote">
+          *Please don't leave the tap running. We're a joke, not a drought. Save water.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 13 — INGREDIENTS CAMPAIGN
+         ===================================================================== -->
+    <section class="ingredients-section" id="ingredients" aria-label="Ingredients Manifesto">
+      <div class="ingredients-bg-wrap">
+        <picture>
+          <source srcset="assets/images/ingredient-hands.webp" type="image/webp">
+          <img src="assets/images/ingredient-hands.jpg" alt="Cupped hands collecting pure flowing water from a modern chrome tap in dramatic lighting" class="ingredients-bg" loading="lazy">
+        </picture>
+        <div class="ingredients-overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="ingredients-content">
+          <span class="formula-tag">PURITY PROFILE</span>
+          <h2 class="ingredients-title">Ingredients.</h2>
+          <div class="formula-highlight">
+            100% H₂O<br>
+            0% Confusion
+          </div>
+
+          <ul class="ingredients-checklist">
+            <li class="checklist-item">
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>No Alcohol</span>
+            </li>
+            <li class="checklist-item">
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>No Chemicals</span>
+            </li>
+            <li class="checklist-item">
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>No Fake Promises</span>
+            </li>
+            <li class="checklist-item">
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>No Heavy Price Tag</span>
+            </li>
+            <li class="checklist-item">
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>100% You</span>
+            </li>
+            <li class="checklist-item">
+              <svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Zero Phthalates</span>
+            </li>
+          </ul>
+
+          <a href="pages/ingredients.html" class="btn btn-light">
+            VIEW COMPOSITION ANALYSIS &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 14 — THE SIGNATURE RITUAL
+         ===================================================================== -->
+    <section class="ritual-section" aria-label="The Application Ritual">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">HOW TO APPLY</span>
+          <h2 class="section-title">Three Steps to Enlightenment</h2>
+          <p class="section-subtitle">No pulse points. No behind-the-ear dabbing. Just physics and honesty.</p>
+        </div>
+
+        <div class="ritual-grid">
+          <div class="ritual-step">
+            <span class="step-num">STEP 01</span>
+            <h3 class="step-title">Find the Source</h3>
+            <p class="step-desc">
+              Usually attached to a wall, above a sink basin. If you find an alpine waterfall, you've gone too far. If you find a kettle, stop.
+            </p>
+          </div>
+
+          <div class="ritual-step">
+            <span class="step-num">STEP 02</span>
+            <h3 class="step-title">Activate the Scent</h3>
+            <p class="step-desc">
+              Turn the tap lever gently clockwise. Let the water run for two seconds. Try not to look overly impressed; this technology is ancient.
+            </p>
+          </div>
+
+          <div class="ritual-step">
+            <span class="step-num">STEP 03</span>
+            <h3 class="step-title">Wear the Confidence</h3>
+            <p class="step-desc">
+              Splash your face vigorously. Pat dry with a clean towel. Walk out into society like your monthly credit card balance is completely under control.
+            </p>
+          </div>
+        </div>
+
+        <p class="ritual-footnote">
+          The engineering is a handle. The technology is gravity. Our R&D budget remains untouched.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 15 — REVIEWS
+         ===================================================================== -->
+    <section class="reviews-section" id="reviews" aria-label="Fictional Customer Reviews">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">UNFILTERED TESTIMONIALS</span>
+          <h2 class="section-title">Real People. Unreal Claims.</h2>
+          <p class="section-subtitle">Testimonials from people who own taps. Allegedly.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <p class="review-quote">
+              “My ex said I never change. Now I come out of the bathroom refreshed. She has not noticed.”
+            </p>
+            <div class="review-author">
+              <div class="author-name">Rahul M.</div>
+              <div class="author-title">Professional Overthinker · Bangalore</div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <p class="review-quote">
+              “I asked for a refund. Support told me to turn the tap off and on again. Fair enough.”
+            </p>
+            <div class="review-author">
+              <div class="author-name">Arjun K.</div>
+              <div class="author-title">First-Time Luxury Buyer · Mumbai</div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <p class="review-quote">
+              “Lasts all day. Mostly because I keep going back to the bathroom to check.”
+            </p>
+            <div class="review-author">
+              <div class="author-name">Kabir S.</div>
+              <div class="author-title">Fragrance Enthusiast · New Delhi</div>
+            </div>
+          </article>
+        </div>
+
+        <p class="reviews-disclaimer">
+          DISCLAIMER: The reviews are fictional. The taps are real. Please don't quote Rahul in a board meeting.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 16 — CAMPAIGN BANNER
+         ===================================================================== -->
+    <section class="campaign-banner" aria-label="Editorial Campaign">
+      <div class="campaign-bg-wrap">
+        <picture>
+          <source srcset="assets/images/bathroom-campaign.webp" type="image/webp">
+          <img src="assets/images/bathroom-campaign.jpg" alt="Minimalist luxury travertine vanity with BOYS FUME flacon and waffle linen towel" class="campaign-bg" loading="lazy">
+        </picture>
+        <div class="campaign-overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="campaign-content">
+          <span class="section-label" style="color: var(--color-muted-sage);">SPRING / SUMMER 2026</span>
+          <h2 class="campaign-headline">Because Confidence Shouldn't Be Overpriced.</h2>
+          <p class="campaign-sub">Refresh. Reset. Repeat.</p>
+          <button class="btn btn-primary" onclick="window.cartManager.addItem('still', 1)">
+            SHOP NOW &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 17 — FAQ ACCORDION
+         ===================================================================== -->
+    <section class="faq-section" id="faq" aria-label="Frequently Asked Questions">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-label">RADICAL HONESTY</span>
+          <h2 class="section-title">Questions We Probably Deserve</h2>
+          <p class="section-subtitle">Everything you were afraid to ask your plumbing fixture.</p>
+        </div>
+
+        <div class="faq-accordion">
+          <!-- Question 1 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Is this actually perfume?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                No. It is a luxury-fragrance-shaped joke about marketing. The product is water. Your tap has been doing this for free since the Indus Valley Civilization.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Why does it cost ₹0?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Because the key ingredient is already in your home. We considered charging ₹9,999 for the bottle, then remembered you already own a glass.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Will it make people fall in love with me?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                We cannot promise that. Try kindness, listening, clean clothes, and not calling a three-day situationship a "spiritual journey".
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Can I return it?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Turn the tap off and enjoy your full refund of ₹0. Please allow 3–5 business seconds for the transaction to reconcile in your soul.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>What are the fragrance notes?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Top note: water.<br>
+                Heart note: more water.<br>
+                Base note: the water bill your family is already paying.
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 6 -->
+          <div class="faq-item">
+            <button class="faq-question-btn" aria-expanded="false">
+              <span>Where is it manufactured?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Depending on your plumbing, your local water supply board or your society's overhead water tank. Our supply chain is unusually close to home.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         PART 20 — FINAL CAMPAIGN
+         ===================================================================== -->
+    <section class="final-campaign-section" aria-label="Final Closing Campaign">
+      <picture>
+        <source srcset="assets/images/final-water-campaign.webp" type="image/webp">
+        <img src="assets/images/final-water-campaign.jpg" alt="Dark cinematic rippling water reflecting quiet golden crests" class="final-campaign-bg" loading="lazy">
+      </picture>
+
+      <div class="final-campaign-content">
+        <span class="section-label" style="color: var(--color-muted-sage);">THE FINAL WORD</span>
+        <h2 class="final-campaign-headline">Your Daily Dose of Fresh.</h2>
+        <p class="final-campaign-sub">Open your tap. It's free, bro.</p>
+        <button class="btn btn-light" onclick="window.cartManager.addItem('after-hours', 1)">
+          CLAIM YOUR COMPLIMENTARY VIBE &rarr;
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       PART 21 — FOOTER
+       ======================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-title">BOYS FUME<sup>®</sup></div>
+          <p class="footer-tagline">
+            “Luxury is a state of mind.<br>
+            Water is a state of matter.”
+          </p>
+          <p style="font-family: var(--font-mono); font-size: 0.65rem; color: #7A7C73; margin-top: 1rem;">
+            THE WORLD'S MOST HONEST LUXURY FRAGRANCE HOUSE.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">COLLECTION</h4>
+          <ul class="footer-links">
+            <li><a href="pages/shop.html" class="footer-link">STILL Nº 01</a></li>
+            <li><a href="pages/shop.html" class="footer-link">AFTER HOURS Nº 02</a></li>
+            <li><a href="pages/shop.html" class="footer-link">ALMOST Nº 03</a></li>
+            <li><a href="pages/ingredients.html" class="footer-link">Formula 100% H₂O</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">HOUSE</h4>
+          <ul class="footer-links">
+            <li><a href="pages/story.html" class="footer-link">Our Story</a></li>
+            <li><a href="pages/ingredients.html" class="footer-link">Ingredients</a></li>
+            <li><a href="pages/reviews.html" class="footer-link">Reviews</a></li>
+            <li><a href="pages/faq.html" class="footer-link">Plumbing FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">THE TAP DISPATCH</h4>
+          <p style="font-size: 0.82rem; color: #A0A299; margin-bottom: 0.75rem;">
+            Subscribe to our newsletter. You will receive exactly zero emails.
+          </p>
+          <form class="footer-newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" class="footer-input" required>
+            <button type="submit" class="footer-submit">JOIN</button>
+          </form>
+          <div class="footer-news-note">100% spam-free. We don't even have a database.</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; 2026 BOYS FUME. A fictional brand with a very real tap.
+        </div>
+        <button class="footer-back-to-top" id="backToTopBtn">
+          <span>BACK TO TOP</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M18 15l-6-6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =======================================================================
+       PART 18 — SHOPPING BAG DRAWER
+       ======================================================================= -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay">
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Bag">
+      <div class="cart-header">
+        <h3 class="cart-title">Your Bag (<span class="cart-count-badge">0</span>)</h3>
+        <button class="cart-close-btn" data-action="close-cart" aria-label="Close Bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" stroke="currentColor" fill="none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="cart-body">
+        <!-- Empty State -->
+        <div class="cart-empty" id="cartEmptyState">
+          <svg class="cart-empty-icon" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+          </svg>
+          <h4 class="cart-empty-text">Your bag is currently dry</h4>
+          <p class="cart-empty-sub">Explore our trilogy of municipal perfection.</p>
+          <button class="btn btn-outline" style="margin-top: 1.5rem;" onclick="window.cartManager.closeCart(); window.location.hash='collection';">
+            DISCOVER THE SCENTS
+          </button>
+        </div>
+
+        <!-- Populated List -->
+        <div class="cart-items-list" id="cartItemsList"></div>
+      </div>
+
+      <div class="cart-footer">
+        <div class="cart-shipping-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+          <span>Delivery: Walk to your sink (0 min)</span>
+        </div>
+        <div class="cart-summary-line">
+          <span>Fictional MRP Total:</span>
+          <span id="cartStrikeTotal" style="text-decoration: line-through;">₹0</span>
+        </div>
+        <div class="cart-summary-total">
+          <span>Actual Due:</span>
+          <span id="cartTotal">₹0</span>
+        </div>
+        <button class="btn btn-primary" id="checkoutBtn" style="width: 100%; padding: 1.1rem;">
+          PROCEED TO CHECKOUT &rarr;
+        </button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- =======================================================================
+       WISHLIST DRAWER
+       ======================================================================= -->
+  <div class="wishlist-drawer-overlay" id="wishlistDrawerOverlay">
+    <aside class="wishlist-drawer" id="wishlistDrawer" aria-label="Saved Items">
+      <div class="cart-header">
+        <h3 class="cart-title">Saved Fragrances (<span class="wishlist-count-badge">0</span>)</h3>
+        <button class="cart-close-btn" data-action="close-wishlist" aria-label="Close Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" stroke="currentColor" fill="none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="cart-body">
+        <div class="cart-empty" id="wishlistEmptyState">
+          <h4 class="cart-empty-text">No items in your wishlist</h4>
+          <p class="cart-empty-sub">Tap the heart on any composition to save it.</p>
+        </div>
+        <div class="cart-items-list" id="wishlistItemsList"></div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- =======================================================================
+       PART 19 — CHECKOUT REVEAL MODAL (THE PUNCHLINE!)
+       ======================================================================= -->
+  <div class="checkout-modal-overlay" id="checkoutRevealModal" role="dialog" aria-modal="true" aria-labelledby="revealHeadline">
+    <div class="checkout-reveal-card">
+      <div class="reveal-water-icon">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+        </svg>
+      </div>
+
+      <span class="reveal-label">YOUR ORDER IS… A REVELATION</span>
+      <h2 class="reveal-headline" id="revealHeadline">Bro.<br>It's water.</h2>
+
+      <p class="reveal-main-copy">
+        Open your tap. Splash some water on yourself.
+      </p>
+
+      <p class="reveal-sub-copy">
+        That’s the entire product. No bottle, no delivery, no payment gateway pretending to load.
+      </p>
+
+      <div class="reveal-punchline">
+        IT IS FREE, BRO.
+      </div>
+
+      <div>
+        <button class="btn btn-primary" id="revealCloseBtn" style="padding: 1rem 2.5rem; font-size: 0.82rem;">
+          OKAY, FAIR ENOUGH
+        </button>
+      </div>
+
+      <span class="reveal-footer-tag">
+        BOYS FUME<sup>®</sup> — WE SELL THE IDEA, NOT THE WATER.
+      </span>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       PRODUCT QUICK VIEW MODAL
+       ======================================================================= -->
+  <div class="modal-overlay" id="quickViewModal" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="quickViewCloseBtn" aria-label="Close product quick view">
+        <svg width="18" height="18" viewBox="0 0 24 24" stroke="currentColor" fill="none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div id="quickViewContent"></div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       SEARCH OVERLAY
+       ======================================================================= -->
+  <div class="search-overlay" id="searchOverlay" role="dialog">
+    <button class="search-close-btn" id="searchClose">CLOSE [ESC]</button>
+    <div class="search-box">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search compositions or notes..." autocomplete="off">
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+
+  <!-- Toast Notification Root -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

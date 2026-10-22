@@ -1,0 +1,107 @@
+/**
+ * BOYS FUME® — Dedicated Responsive Overrides & Viewport Optimizations
+ * "The World's Most Accessible Luxury"
+ */
+
+/* Extra Large Screens (>= 1440px) */
+@media (min-width: 1440px) {
+  .hero-headline {
+    font-size: 5rem;
+  }
+  .hero-content {
+    max-width: 680px;
+  }
+}
+
+/* Tablets & Small Desktops (769px - 1024px) */
+@media (max-width: 1024px) {
+  .product-details {
+    padding: 1.25rem;
+  }
+  .story-grid {
+    gap: 3rem;
+  }
+}
+
+/* Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 0 0.5rem;
+  }
+  
+  .brand-title {
+    font-size: 1.2rem;
+  }
+  
+  .hero-section {
+    min-height: calc(100vh - 64px);
+    padding: 2rem 0;
+  }
+
+  .hero-headline {
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+
+  .hero-subhead {
+    font-size: 1.1rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .cart-drawer,
+  .wishlist-drawer {
+    max-width: 100%;
+  }
+
+  .checkout-reveal-card {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .reveal-headline {
+    font-size: 2.4rem;
+  }
+
+  .reveal-punchline {
+    font-size: 1rem;
+    padding: 0.65rem 1rem;
+  }
+
+  .toast {
+    max-width: 90vw;
+    right: 5vw;
+    bottom: 1.5rem;
+  }
+}
+
+/* Narrow Handsets (<= 380px) */
+@media (max-width: 380px) {
+  .hero-headline {
+    font-size: 2.3rem;
+  }
+  
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .product-pricing {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+
+/* High Contrast / Print Support */
+@media print {
+  .site-header,
+  .cart-drawer-overlay,
+  .wishlist-drawer-overlay,
+  .checkout-modal-overlay,
+  .toast-container,
+  .footer-newsletter-form {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
